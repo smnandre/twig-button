@@ -11,6 +11,12 @@
         {% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
+
+        {{ component('button') }}
+
+        {% component 'button' %}{% endcomponent %}
+
+        <twig:button></twig:button>
+
     </body>
 </html>
